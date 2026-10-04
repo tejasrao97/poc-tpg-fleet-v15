@@ -33,7 +33,9 @@ clusters:
       version: v4.4.0
       patches:
         values:
-          current: patches/operator/op-res-841jg.yaml
+          previous:
+            path: patches/operator/op-res-841jg.yaml
+            commit: 3283300d0f624b92ecb2f21caba9fab3240325b5
     instances:
       orders-db:
         instance:
@@ -202,12 +204,13 @@ clusters:
             incremental: 0 0 * * 1-6
         patches:
           postgres:
-            current: patches/orders-db-postgres-0fa77.yaml
-          postgresValues:
-            current: patches/pg-val-4tt4t.yaml
             previous:
-              path: patches/pg-val-wg08j.yaml
-              commit: bf8c03fec3156143d5b86b3db6743f989db7afa4
+              path: patches/orders-db-postgres-0fa77.yaml
+              commit: 3283300d0f624b92ecb2f21caba9fab3240325b5
+          postgresValues:
+            previous:
+              path: patches/pg-val-4tt4t.yaml
+              commit: f3b1c05218623d7298043c3c1283fc357417b979
   aks-tpg-poc-02:
     operator:
       version: v4.4.0
