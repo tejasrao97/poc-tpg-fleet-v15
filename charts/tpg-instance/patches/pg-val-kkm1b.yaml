@@ -1,0 +1,3 @@
+backup:
+  diffRetention: 3
+    #forcePathStyle: true
