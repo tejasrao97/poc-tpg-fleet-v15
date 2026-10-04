@@ -583,7 +583,7 @@ clusters:
           postgres:
             current: patches/orders-db-postgres-0fa77.yaml
           postgresValues:
-            current: patches/pg-val-kkm1b.yaml
+            current: patches/pg-val-wg08j.yaml
             previous:
-              path: patches/pg-val-okkch.yaml
-              commit: 970a624759b2db922ef608f3a25c5163190b7efd
+              path: patches/pg-val-kkm1b.yaml
+              commit: 0cba34877cff68da1d2f7d7bd79d595c841d2d29
