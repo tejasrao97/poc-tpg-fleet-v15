@@ -545,7 +545,9 @@ clusters:
             -----END CERTIFICATE-----
         patches:
           postgres:
-            current: patches/orders-db-postgres-0a4ca.yaml
+            previous:
+              path: patches/orders-db-postgres-0a4ca.yaml
+              commit: 3283300d0f624b92ecb2f21caba9fab3240325b5
   aks-tpg-poc-03:
     operator:
       version: v4.4.0
