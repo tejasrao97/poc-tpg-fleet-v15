@@ -1,0 +1,17 @@
+apiVersion: sql.tanzu.vmware.com/v1
+kind: Postgres
+spec:
+  resources:
+    data:
+      limits:
+        memory: 6Gi
+      requests:
+        memory: 6Gi
+---
+apiVersion: sql.tanzu.vmware.com/v1
+kind: PostgresBackupLocation
+spec:
+  retentionPolicy:
+    fullRetention:
+      number: 6
+      type: count

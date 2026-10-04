@@ -1,0 +1,6 @@
+# Operator values of aks-tpg-poc-03, read by the tpg-operator Application (Round 14).
+# Written by the workflows from patches/operator/op-res-841jg.yaml (clusters/fleet.yaml
+# clusters.aks-tpg-poc-03.operator.patches.values.current); do not edit.
+resources:
+  limits: {cpu: 500m, memory: 300Mi}
+  requests: {cpu: 500m, memory: 300Mi}
