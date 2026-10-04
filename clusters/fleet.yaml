@@ -309,10 +309,10 @@ clusters:
             -----END CERTIFICATE-----
         patches:
           postgresValues:
-            current: patches/pg-val-okkch.yaml
+            current: patches/pg-val-kkm1b.yaml
             previous:
-              path: patches/pg-val-b0rg0.yaml
-              commit: 3283300d0f624b92ecb2f21caba9fab3240325b5
+              path: patches/pg-val-okkch.yaml
+              commit: 970a624759b2db922ef608f3a25c5163190b7efd
       orders-db:
         instance:
           postgresVersion: postgres-16.8
