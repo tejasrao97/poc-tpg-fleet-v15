@@ -2,4 +2,4 @@ apiVersion: sql.tanzu.vmware.com/v1
 kind: PostgresBackupLocation
 spec:
   retentionPolicy:
-    fullRetention: {number: 5, type: count}
+    fullRetention: {number: 6, type: count}
